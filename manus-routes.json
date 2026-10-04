@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","title":"راوي | قصص ومعلومات"},{"path":"/category/:slug","title":"تصنيف | راوي"},{"path":"/article/:slug","title":"قصة أو مقال | راوي"},{"path":"/about","title":"عن راوي"},{"path":"/privacy","title":"سياسة الخصوصية"},{"path":"/terms","title":"شروط الاستخدام"},{"path":"/disclaimer","title":"إخلاء المسؤولية"}]}
