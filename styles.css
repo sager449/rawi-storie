@@ -7,3 +7,93 @@
 @media(max-width:560px){.site-header{gap:12px}.wordmark small{display:none}.search-trigger{padding:9px}.hero{min-height:auto}.hero-intro{font-size:1.15rem}.hero-actions{gap:18px;flex-wrap:wrap}.feature-stamp{top:25px;left:25px}.feature-number{right:20px;top:26px}.ad-slot{flex-direction:column;gap:2px;padding:15px;text-align:center;margin-bottom:55px}.section-heading{align-items:start;gap:20px;flex-direction:column}.section-heading h2{font-size:1.8rem}.story-lead h3{font-size:1.7rem}.editor-letter{display:block}.letter-mark{display:none}.editor-letter h2{font-size:2rem;margin-bottom:28px}.letter-copy p{font-size:1.08rem}.site-footer{grid-template-columns:1fr}.footer-links{gap:45px}.footer-end{font-size:.55rem}.newsletter-form>div{display:block}.newsletter-form input{width:100%;border-left:1px solid var(--line);margin-bottom:8px}.newsletter-form .button{width:100%;justify-content:space-between}.search-panel{padding:40px 25px}.search-panel h2{font-size:1.8rem}}
 
 .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}.tags span{font-size:.65rem;border:1px solid var(--line);padding:6px 10px;color:var(--ink-soft)}
+
+/* ===== تصميم صفحة القصة ===== */
+.story-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.story-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.story-header h1 {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #24221f;
+  line-height: 1.3;
+  margin: 20px 0;
+}
+
+.story-intro {
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 1.2rem;
+  color: #6b6560;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.story-image {
+  margin: 40px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.story-content {
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 1.15rem;
+  line-height: 2;
+  color: #3a3632;
+}
+
+.story-content p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.story-footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #e0dbd4;
+}
+
+.story-footer .button {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #24221f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.story-footer .button:hover {
+  background-color: #c9962e;
+}
+
+@media (max-width: 600px) {
+  .story-page {
+    padding: 20px 15px;
+  }
+  .story-header h1 {
+    font-size: 1.8rem;
+  }
+  .story-content {
+    font-size: 1.05rem;
+  }
+  }
